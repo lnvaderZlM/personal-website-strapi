@@ -11,8 +11,8 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Description": {
-      "type": "text"
+    "Title": {
+      "type": "string"
     },
     "Start": {
       "type": "date"
@@ -39,6 +39,14 @@
         "videos",
         "audios"
       ]
+    },
+    "Content": {
+      "type": "blocks"
+    },
+    "skills": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::skill.skill"
     }
   }
 }
