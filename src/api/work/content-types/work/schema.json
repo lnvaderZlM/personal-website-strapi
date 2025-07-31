@@ -50,6 +50,9 @@
     },
     "slug": {
       "type": "string"
+    },
+    "Company": {
+      "type": "string"
     }
   }
 }
