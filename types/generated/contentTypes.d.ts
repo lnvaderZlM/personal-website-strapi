@@ -432,6 +432,7 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    work_type: Schema.Attribute.Enumeration<['Work', 'Project']>;
   };
 }
 

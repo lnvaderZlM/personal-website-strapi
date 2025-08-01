@@ -63,6 +63,13 @@
         "videos",
         "audios"
       ]
+    },
+    "work_type": {
+      "type": "enumeration",
+      "enum": [
+        "Work",
+        "Project"
+      ]
     }
   }
 }
