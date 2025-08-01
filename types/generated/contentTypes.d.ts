@@ -409,6 +409,10 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    bottom_images: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
     Company: Schema.Attribute.String;
     Content: Schema.Attribute.Blocks;
     createdAt: Schema.Attribute.DateTime;

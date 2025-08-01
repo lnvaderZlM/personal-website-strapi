@@ -53,6 +53,16 @@
     },
     "Company": {
       "type": "string"
+    },
+    "bottom_images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
